@@ -1,0 +1,8 @@
+{
+    "singleQueote": true,
+    "semi": true,
+    "trailingComma": "all",
+    "useTaps": false,
+    "tabWidth": 2,
+    "printWidth": 80
+}
