@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const OuterBox = styled.Footer`
+const OuterBox = styled.footer`
 
 `;
 

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Nanum Gothic', sans-serif;
   color: #000;
+  outline: none;
 }
 
 html {
@@ -32,4 +33,25 @@ dd,
 li {
   margin: 0;
   padding: 0;
+}
+
+main {
+  background-color: #f1f3fa;
+}
+
+/* 공통 여백*/
+.mt5 {
+  margin-top: 5px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt10 {
+  margin-bottom: 10px;
 }
