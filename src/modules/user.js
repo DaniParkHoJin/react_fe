@@ -1,15 +1,19 @@
-import { createContext, useState, useCallback } from 'react';
+import { createContext, useState } from 'react';
 
-const UserContext = createContext({
+const initialState = {
     state: {
         isLogin: false,
         userInfo: {},
     },
-    actions: {
+    action: {
         setIsLogin: null,
         setUserInfo: null,
     },
-});
+
+};
+
+const UserContext = createContext(initialState);
+
 const UserProvider = ({ children }) => {
     const [isLogin, setIsLogin] = useState(false);
     const [userInfo, setUserInfo] = useState({});
